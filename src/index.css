@@ -114,7 +114,7 @@ body {
   }
   
   .home {
-    padding-top: 45%;
+    padding-top: 40%;
     height: 90vh;
   }
 
@@ -149,11 +149,11 @@ body {
   }
 
   .experience {
-    margin-top: 57vh;
+    margin-top: 60vh;
   }
 
   .contact {
-    margin-top: 55vh;
+    margin-top: 60vh;
     z-index: 5;
   }
 
@@ -163,6 +163,6 @@ body {
   }
 
   .footer{
-    margin-top: 0;
+    margin-top: 1vh;
   }
 }
