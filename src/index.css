@@ -59,7 +59,7 @@ body {
   height: 80vh;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .about,
   .contact,
   .portfolio,
@@ -99,7 +99,12 @@ body {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
+
+  #root{
+    background: linear-gradient(rgb(31, 41, 55) 75%, black 25%);
+  }
+
   .about,
   .contact,
   .portfolio,
@@ -126,7 +131,7 @@ body {
   }
 
   .about {
-    margin-top: 25%;
+    margin-top: 18vh;
   }
 
   .home h2 {
@@ -140,15 +145,16 @@ body {
   }
 
   .experience {
-    margin-top: 75%;
+    margin-top: 45vh;
   }
 
   .contact {
-    padding-top: 80vh;
+    margin-top: 45vh;
   }
 
   .footer {
-    margin-top: 40vh;
+    margin-top: 1vh;
+    padding: 2rem;
   }
 
   .px-12 {
