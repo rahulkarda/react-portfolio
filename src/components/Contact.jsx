@@ -18,7 +18,7 @@ const Contact = () => {
           <form
             name="contact"
             method="POST"
-            data-netlify="true"
+            action="https://send.pageclip.co/9br0jjhpaO91O2znkFycPdgYRFOMUSFN/React-Portfolio"
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
