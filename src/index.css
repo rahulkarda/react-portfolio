@@ -131,7 +131,11 @@ body {
   }
 
   .about {
-    margin-top: 18vh;
+    margin-top: 15vh;
+  }
+
+  .gap-8{
+    gap: 4rem;
   }
 
   .home h2 {
@@ -145,20 +149,20 @@ body {
   }
 
   .experience {
-    margin-top: 45vh;
+    margin-top: 57vh;
   }
 
   .contact {
-    margin-top: 45vh;
-  }
-
-  .footer {
-    margin-top: 1vh;
-    padding: 2rem;
+    margin-top: 55vh;
+    z-index: 5;
   }
 
   .px-12 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .footer{
+    margin-top: 0;
   }
 }
