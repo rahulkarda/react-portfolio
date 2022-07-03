@@ -18,7 +18,7 @@ const Contact = () => {
           <form
             name="contact"
             method="POST"
-            action="https://send.pageclip.co/9br0jjhpaO91O2znkFycPdgYRFOMUSFN/React-Portfolio"
+            action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
