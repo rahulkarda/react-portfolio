@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+body {
+  background: rgb(31, 41, 55);
+}
+
+.nav {
+  z-index: 10;
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+  /* color: blue; */
+}
+
+.link-underline-black {
+  /* background-image: linear-gradient(transparent, transparent), linear-gradient(#F2C, rgb(60, 34, 255)) */
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#000, #fff);
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+  line-height: 1.2;
+}
+
+.portfolio {
+  padding-top: 10%;
+}
+
+.contact {
+  padding-top: 10%;
+}
+
+.experience {
+  margin-top: 15%;
+}
+
+.home {
+  height: 80vh;
+}
+
+@media screen and (max-width: 1000px) {
+  .about,
+  .contact,
+  .portfolio,
+  .experience,
+  .home {
+    text-align: center;
+  }
+
+  .portfolio-btn,.home p {
+    margin: auto;
+  }
+
+  .big-screen {
+    display: none;
+  }
+
+  .small-screen {
+    display: block;
+  }
+
+  .home img {
+    width: 45%;
+  }
+
+  .home {
+    height: 90vh;
+    padding-top: 15%;
+  }
+
+  .home h2 {
+    font-size: 3rem;
+    margin-top: 5%;
+  }
+
+  .about {
+    padding-top: 5%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about,
+  .contact,
+  .portfolio,
+  .experience,
+  .home {
+    text-align: center;
+  }
+  
+  .home {
+    padding-top: 45%;
+    height: 90vh;
+  }
+
+  .home img {
+    width: 70%;
+  }
+
+  .small-screen {
+    display: block;
+  }
+
+  .big-screen {
+    display: none;
+  }
+
+  .about {
+    margin-top: 25%;
+  }
+
+  .home h2 {
+    font-size: 2.7rem;
+    line-height: 3rem;
+    margin-top: 7%;
+  }
+
+  .portfolio-btn {
+    margin: auto;
+  }
+
+  .experience {
+    margin-top: 75%;
+  }
+
+  .contact {
+    padding-top: 80vh;
+  }
+
+  .footer {
+    margin-top: 40vh;
+  }
+
+  .px-12 {
+    padding-left: 1;
+    padding-right: 1;
+  }
+}
