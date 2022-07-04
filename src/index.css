@@ -12,6 +12,11 @@
   }
 }
 
+#root {
+  background: linear-gradient(black 25%, rgb(31, 41, 54) 58%, black 15%);
+  min-height: 100vh;
+}
+
 body {
   background: rgb(31, 41, 55);
 }
@@ -28,7 +33,6 @@ body {
   background-position: 0 100%;
   background-repeat: no-repeat;
   transition: background-size 0.5s ease-in-out;
-  /* color: blue; */
 }
 
 .link-underline-black {
@@ -43,66 +47,26 @@ body {
   line-height: 1.2;
 }
 
-.portfolio {
-  padding-top: 10%;
-}
-
+.portfolio,
 .contact {
-  padding-top: 10%;
+  margin-top: 8%;
 }
 
 .experience {
-  margin-top: 15%;
+  margin-top: 12%;
 }
 
-.home {
-  height: 80vh;
+
+.nav-links {
+  text-underline-offset: 1rem;
 }
 
-@media screen and (max-width: 1200px) {
-  .about,
-  .contact,
-  .portfolio,
-  .experience,
-  .home {
-    text-align: center;
-  }
-
-  .portfolio-btn,.home p {
-    margin: auto;
-  }
-
-  .big-screen {
-    display: none;
-  }
-
-  .small-screen {
-    display: block;
-  }
-
-  .home img {
-    width: 45%;
-  }
-
-  .home {
-    height: 90vh;
-    padding-top: 15%;
-  }
-
-  .home h2 {
-    font-size: 3rem;
-    margin-top: 5%;
-  }
-
-  .about {
-    padding-top: 5%;
-  }
-}
 
 @media screen and (max-width: 900px) {
 
-  #root{
-    background: linear-gradient(rgb(31, 41, 55) 75%, black 25%);
+  #root {
+    background: linear-gradient(rgb(31, 41, 55) 20%, black 20%, rgb(31, 41, 55) 65%, black 25%);
+    min-height: 100vh;
   }
 
   .about,
@@ -111,15 +75,17 @@ body {
   .experience,
   .home {
     text-align: center;
+    height: 100%;
   }
-  
-  .home {
-    padding-top: 40%;
-    height: 90vh;
+
+  .about,
+  .portfolio,
+  .experience {
+    margin-top: 10%;
   }
 
   .home img {
-    width: 70%;
+    margin-top: 25%;
   }
 
   .small-screen {
@@ -130,11 +96,7 @@ body {
     display: none;
   }
 
-  .about {
-    margin-top: 15vh;
-  }
-
-  .gap-8{
+  .gap-8 {
     gap: 4rem;
   }
 
@@ -148,21 +110,9 @@ body {
     margin: auto;
   }
 
-  .experience {
-    margin-top: 60vh;
-  }
-
-  .contact {
-    margin-top: 60vh;
-    z-index: 5;
-  }
-
   .px-12 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  .footer{
-    margin-top: 1vh;
-  }
 }
