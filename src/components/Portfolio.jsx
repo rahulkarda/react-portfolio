@@ -11,7 +11,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: api,
-      link: 'https://crypto-info-api.herokuapp.com/',
+      link: 'https://crypto-info-api.cyclic.app/',
       repo: 'https://github.com/rahulkarda/crypto-info-api'
     },
     {
